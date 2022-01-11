@@ -4,15 +4,24 @@
   Version: 1.0; 
 */
 
+/* CSS for All */
 * {
     margin: 0 0;
     padding: 0 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .container {
     border: 1px solid black;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
+}
+
+/* CSS for navbar section */
+.logo {
+    border: 1px solid black;
+    width: 10%;
+}
+.img-responsive {
+    width:100%;
 }
