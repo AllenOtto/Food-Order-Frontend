@@ -31,11 +31,13 @@ a:hover {
     color: #f53b57;
 }
 .btn {
+    border-radius: 5px;
     padding: 1%;
     border: none;
     font-size: 1rem;
 }
 .btn:hover {
+    color: white;
     background-color: #f53b57;
 }
 .btn-primary {
@@ -116,4 +118,37 @@ h3 {
     width: 28%;
     float: left;
     margin: 2%;
+}
+
+/* CSS for Food Menu section */
+.food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box {
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+.food-menu-img {
+    width: 20%;
+    float: left;
+}
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail {
+    font-size: 1rem;
+    color: #808e9b;
 }
