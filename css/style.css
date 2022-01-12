@@ -70,6 +70,16 @@ a:hover {
 input {
     border-radius: 5px;
 }
+h2 {
+    color: #1e272e;
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+.img-curve {
+    border-radius: 15px;
+}
 
 /* CSS for Food Search section */
 .food-search {
@@ -84,4 +94,26 @@ input {
     padding: 1%;
     font-size: 1rem;
     border: none;
+}
+.float-container {
+    position: relative;
+}
+.text-white {
+    color: white;
+}
+.float-text {
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+/* CSS for Categories */
+.categories {
+    padding: 4% 0;
+}
+.box-3 {
+    border: 1px solid black;
+    width: 28%;
+    float: left;
+    margin: 2%;
 }
