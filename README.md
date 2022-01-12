@@ -14,4 +14,4 @@ This is a basic eCommerce site multi-page frontend with home, food, categories a
 
 ## Licensing and Copyright
 
-©2021. AllenOtto, BitWilder Tech
+©2021 All rights Reserved. Design By AllenOtto, BitWilder Tech
