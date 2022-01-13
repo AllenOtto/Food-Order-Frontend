@@ -152,3 +152,15 @@ h3 {
     font-size: 1rem;
     color: #808e9b;
 }
+
+/* CSS for Social section */
+.social ul {
+    list-style-type: none;
+}
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+.social ul li img {
+    width: 3%;
+}
