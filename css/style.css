@@ -11,7 +11,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-    border: 1px solid black;
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -54,7 +53,6 @@ a:hover {
 
 /* CSS for navbar section */
 .logo {
-    border: 1px solid black;
     width: 10%;
     float: left;
 }
@@ -75,6 +73,7 @@ input {
 h2 {
     color: #1e272e;
     font-size: 2rem;
+    margin-bottom: 3.5%;
 }
 h3 {
     font-size: 1.5rem;
@@ -114,7 +113,6 @@ h3 {
     padding: 4% 0;
 }
 .box-3 {
-    border: 1px solid black;
     width: 28%;
     float: left;
     margin: 2%;
@@ -163,4 +161,57 @@ h3 {
 }
 .social ul li img {
     width: 3%;
+}
+
+/* CSS for Mobile Size or smaller smaller screen */
+@media only screen and (max-width:768px) {
+    /* Tablet-size devices */
+    h2 {
+        margin: 10%;
+    }
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .food-search {
+        padding: 10% 0;
+    }
+    .food-search input[type="search"] {
+        width: 90%;
+        margin-bottom: 2%;
+        padding: 2%;
+        font-size: 1.5rem;
+    }
+    .btn {
+        width: 90%;
+        padding: 2%;
+        font-size: 1.5rem;
+    }
+    .categories {
+        padding: 20% 0;
+    }
+    .box-3 {
+        width: 90%;
+        margin: 4% auto;
+    }
+    .food-menu {
+        padding: 20% 0;
+    }
+    .food-menu-box {
+        width: 90%;
+        padding: 5%;
+        margin: 5% auto;
+    }
+    .social {
+        padding: 5% 0;
+    }
+    .social ul li img {
+        width: 15%;
+        padding: 0 5%;
+    }
+    
 }
